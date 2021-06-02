@@ -1,0 +1,19 @@
+.topBorder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  font-size: large;
+}
+
+.rightSide > div {
+  vertical-align: middle;
+}
