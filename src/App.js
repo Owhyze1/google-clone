@@ -1,14 +1,21 @@
 import './App.css';
+import TopBorder from './TopBorder.js';
+import GoogleDoodle from './GoogleDoodle.js';
 
 function App() {
   return (
     <div className="App">
-      <h3>Google Clone</h3>
+
       {/* Top Border */}
-      {/* Image */}
-      {/* Searchbar */}
-      {/* Icon shortcuts */}
-      {/* Bottom Border */}
+      <TopBorder />
+
+      <div className="middle">
+        <GoogleDoodle />
+
+        {/* Searchbar */}
+        {/* Icon shortcuts */}
+        {/* Bottom Border */}
+      </div>
     </div>
   );
 }
