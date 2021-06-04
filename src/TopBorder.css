@@ -1,9 +1,26 @@
 .topBorder {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-top: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.leftSide {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  font-size: medium;
+  padding-left: 20px;
 }
 
 .rightSide {
@@ -11,9 +28,29 @@
   justify-content: space-around;
   align-items: center;
   width: 250px;
-  font-size: medium;
+  padding-right: 10px;
 }
 
-.rightSide > div {
-  vertical-align: middle;
+.appIcon-div,
+.avatarIcon-div {
+  border-radius: 200px;
+  width: 45px;
+  height: 45px;
+  padding: 1px;
+  text-align: center;
+}
+
+.appIcon-div:hover,
+.avatarIcon-div:hover {
+  background-color: rgb(167, 167, 167, 0.2);
+}
+
+.apps {
+  padding-top: 10px;
+}
+
+.avatar {
+  transform: scale(0.9);
+  padding-top: 3px;
+  padding-left: 3px;
 }
