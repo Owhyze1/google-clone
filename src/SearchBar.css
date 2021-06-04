@@ -7,37 +7,41 @@
 .searchBar-container {
   position: relative;
   z-index: 1;
-  width: 550px;
+  width: 650px;
   height: 30px;
   font-size: medium;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 .icon {
   position: absolute;
   z-index: 2;
+  /* padding: 1px; */
 }
 
 .left {
   top: 48%;
   left: 2%;
+  color: gray;
 }
 
 .right {
-  right: 1%;
+  right: 3%;
   top: 45%;
 }
 
 input {
   width: 95%;
   padding: 15px;
-  border: 2px solid gray;
+  border: 2px solid lightgray;
   border-radius: 20px;
 }
 
 input:focus {
   outline: none;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  text-indent: 40px;
+}
+
+input:hover {
+  box-shadow: 1px 1px 5px 1px lightgray;
 }
