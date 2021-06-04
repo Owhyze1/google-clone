@@ -14,8 +14,9 @@ function App() {
         <GoogleDoodle />
         <SearchBar />
       </div>
-
-      <Search />
+      <div className="search-div">
+        <Search />
+      </div>
     </div>
   );
 }
