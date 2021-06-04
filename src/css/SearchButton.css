@@ -1,0 +1,16 @@
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+}
+
+button {
+  padding: 7px 15px 7px 15px;
+  background-color: rgb(167, 167, 167, 0.1);
+  border: 2px solid rgb(167, 167, 167, 0);
+  font-size: medium;
+}
+
+button:hover {
+  border: 2px solid rgb(167, 167, 167, 0.3);
+}
