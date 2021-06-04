@@ -1,5 +1,8 @@
-/* .app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
+.App {
+  /* background-color: blue; */
+}
+
+.search-div {
+  /* background-color: yellow; */
+  padding-top: 50px;
+}
