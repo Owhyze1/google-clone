@@ -1,6 +1,7 @@
 import './App.css';
 import TopBorder from './TopBorder.js';
 import GoogleDoodle from './GoogleDoodle.js';
+import SearchBar from './SearchBar.js';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className="middle">
         <GoogleDoodle />
 
-        {/* Searchbar */}
+        <SearchBar />
         {/* Icon shortcuts */}
         {/* Bottom Border */}
       </div>
