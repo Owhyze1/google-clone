@@ -1,22 +1,21 @@
-import './App.css';
+import './css/App.css';
 import TopBorder from './TopBorder.js';
 import GoogleDoodle from './GoogleDoodle.js';
 import SearchBar from './SearchBar.js';
+import Search from './Search.js';
 
 function App() {
   return (
     <div className="App">
 
-      {/* Top Border */}
       <TopBorder />
 
       <div className="middle">
         <GoogleDoodle />
-
         <SearchBar />
-        {/* Icon shortcuts */}
-        {/* Bottom Border */}
       </div>
+
+      <Search />
     </div>
   );
 }

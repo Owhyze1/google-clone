@@ -1,5 +1,5 @@
 import React from 'react';
-import './GoogleDoodle.css';
+import './css/GoogleDoodle.css';
 
 function GoogleDoodle() {
   return <div className="googleDoodle">

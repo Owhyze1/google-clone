@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchBar.css';
+import './css/SearchBar.css';
 import SearchIcon from '@material-ui/icons/Search';
 import MicTwoToneIcon from '@material-ui/icons/MicTwoTone';
 
