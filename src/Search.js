@@ -1,12 +1,12 @@
 import React from 'react';
 import './css/Search.css';
 import SearchButton from './SearchButton.js';
-import LuckySearchButton from './LuckySearchButton.js';
 
 function Search() {
-  return <div className="buttons">
-    <SearchButton />
-    <LuckySearchButton />
+  return <div className="container">
+    <div className="buttons">
+      <SearchButton />
+    </div>
   </div>;
 }
 
