@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100%;
   height: 35vh;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .doodle {
@@ -13,7 +13,23 @@
   justify-content: center;
   align-items: flex-end;
   width: 600px;
-  /* background-color: yellow; */
-  font-size: 100px;
+  font-size: 90px;
   padding-bottom: 35px;
+  font-weight: bold;
+}
+
+.first-g, .second-g {
+  color: blue;
+}
+
+.first-o, .e {
+  color: red;
+}
+
+.second-o {
+  color: gold;
+}
+
+.l {
+  color: mediumseagreen;
 }
