@@ -3,20 +3,18 @@ import TopBorder from './TopBorder.js';
 import GoogleDoodle from './GoogleDoodle.js';
 import SearchBar from './SearchBar.js';
 import Search from './Search.js';
+import BottomBorder from './BottomBorder.js';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="app">
       <TopBorder />
-
-      <div className="middle">
+      <div className="doodle-and-search-div">
         <GoogleDoodle />
         <SearchBar />
-      </div>
-      <div className="search-div">
         <Search />
       </div>
+      <BottomBorder />
     </div>
   );
 }
