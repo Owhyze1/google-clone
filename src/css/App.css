@@ -1,8 +1,17 @@
-.App {
-  /* background-color: blue; */
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.search-div {
-  /* background-color: yellow; */
-  padding-top: 50px;
+.doodle-and-search-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  margin-bottom: 35vh;
 }
+
