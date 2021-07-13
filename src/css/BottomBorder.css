@@ -1,0 +1,25 @@
+.bottom-div {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: pink; */
+  width: auto;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: lightblue; */
+}
+
+a {
+  padding: 20px;
+}
