@@ -7,8 +7,7 @@ import {Avatar} from '@material-ui/core';
 function TopBorder() {
   return <div>
     <div className="topBorder">
-      {/* <div className="leftSide"></div> */}
-      <div className="leftSide">
+      <div className="leftSide-top">
         <div>
           <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">
             About
@@ -21,8 +20,10 @@ function TopBorder() {
         </div>
       </div>
 
-      <div className="rightSide">
-        <div><a href="https://www.gmail.com">Gmail</a></div>
+      <div className="rightSide-top">
+
+        <div>
+          <a href="https://www.gmail.com">Gmail</a></div>
         <div>
           <a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">
             Images
