@@ -1,9 +1,10 @@
 .topBorder {
+  /* background-color: purple; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 a {
@@ -15,7 +16,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.leftSide {
+.leftSide-top {
   display: flex;
   justify-content: space-around;
   width: 100px;
@@ -23,7 +24,7 @@ a:hover {
   padding-left: 20px;
 }
 
-.rightSide {
+.rightSide-top {
   display: flex;
   justify-content: space-around;
   align-items: center;
