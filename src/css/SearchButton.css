@@ -1,7 +1,17 @@
-.button-div {
+.buttonContainer {
+  /* background-color: greenyellow; */
   display: flex;
   justify-content: space-between;
-  width: 325px;
+}
+
+.button-div-left {
+  /* background-color: pink; */
+  margin-right: 10px;
+}
+
+.button-div-right {
+  /* background-color: darkgray; */
+  margin-left: 10px;
 }
 
 button {
