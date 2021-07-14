@@ -5,28 +5,27 @@
 }
 
 .searchBar-container {
+  /* background-color: red; */
   position: relative;
   z-index: 1;
   width: 650px;
-  height: 30px;
   font-size: medium;
 }
 
 .icon {
   position: absolute;
   z-index: 2;
-  /* padding: 1px; */
 }
 
 .left {
-  top: 48%;
+  top: 25%;
   left: 2%;
   color: gray;
 }
 
 .right {
-  right: 3%;
-  top: 45%;
+  right: 2%;
+  top: 25%;
 }
 
 input {
