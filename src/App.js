@@ -1,9 +1,9 @@
 import './css/App.css';
-import TopBorder from './TopBorder.js';
-import GoogleDoodle from './GoogleDoodle.js';
-import SearchBar from './SearchBar.js';
-import Search from './Search.js';
-import BottomBorder from './BottomBorder.js';
+import TopBorder from './components/TopBorder.js';
+import GoogleDoodle from './components/GoogleDoodle.js';
+import SearchBar from './components/SearchBar.js';
+import Search from './components/Search.js';
+import BottomBorder from './components/BottomBorder.js';
 
 function App() {
   return (
